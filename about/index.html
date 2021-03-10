@@ -23,16 +23,20 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"blog.yinyin.dev","root":"/","images":"/images","scheme":"Pisces","version":"8.2.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}};
   </script>
+<meta name="description" content="目前這傢伙還很懶，不知道要寫什麼">
 <meta property="og:type" content="website">
-<meta property="og:title" content="美代子的部落格">
-<meta property="og:url" content="https://blog.yinyin.dev/archives/2021/">
+<meta property="og:title" content="關於">
+<meta property="og:url" content="https://blog.yinyin.dev/about/">
 <meta property="og:site_name" content="美代子的部落格">
+<meta property="og:description" content="目前這傢伙還很懶，不知道要寫什麼">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2021-03-10T14:46:26.000Z">
+<meta property="article:modified_time" content="2021-03-10T14:47:07.003Z">
 <meta property="article:author" content="Nesquate">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://blog.yinyin.dev/archives/2021/">
+<link rel="canonical" href="https://blog.yinyin.dev/about/">
 
 
 <script class="page-configurations">
@@ -44,7 +48,8 @@
     lang   : 'zh-TW'
   };
 </script>
-<title>歸檔 | 美代子的部落格</title>
+<title>關於 | 美代子的部落格
+</title>
   
 
 
@@ -221,50 +226,40 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner page posts-expand">
+  
+  
 
 
-  
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共有 1 篇文章。 繼續努力。</span>
-      </div>
+    
+    
+    
+    <div class="post-block" lang="zh-TW"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">關於
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-03-10T22:12:45+08:00"
-              content="2021-03-10">
-          03-10
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/create-hexo5-with-next8-windows/" itemprop="url">
-            <span itemprop="name">在 Windows 下建立 Hexo 5 與套用 Next 8 佈景主題</span>
-          </a>
-      </div>
-
       
-    </header>
-  </article>
+      <div class="post-body">
+          <p><em>目前這傢伙還很懶，不知道要寫什麼</em></p>
 
-
+      </div>
+      
+      
+      
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+
+
+    <div class="comments gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -337,6 +332,26 @@
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '51d73f3c14e366800219',
+      clientSecret: '47f16ad38e9b94ed8061722834ea9a50dfd7575e',
+      repo        : 'nesquate.github.io',
+      owner       : '',
+      admin       : ['Nesquate'],
+      id          : 'f34bb62f734d1cecaa4de6a8b8efab52',
+      proxy       : 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token',
+        language: 'zh-TW',
+      distractionFreeMode: true
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
