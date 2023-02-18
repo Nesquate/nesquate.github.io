@@ -3,7 +3,7 @@
 	<title>美代子隨筆</title>
 	<subtitle>美代子隨筆 - rss</subtitle>
 	
-	<link href="https://nesquate.tw/feed/feed.xml" rel="self"/>
+	<link href="https://nesquate.tw/blog/feed/feed.xml" rel="self"/>
 	<link href="https://nesquate.tw/blog"/>
 	<updated>2022-10-12T08:00:00+08:00</updated>
 	<id>https://nesquate.tw/blog</id>
@@ -14,9 +14,9 @@
 	
 	<entry>
 		<title>從短文開始</title>
-		<link href="https://nesquate.tw/posts/%E5%BE%9E%E7%9F%AD%E6%96%87%E9%96%8B%E5%A7%8B/"/>
+		<link href="https://nesquate.tw/blog/posts/%E5%BE%9E%E7%9F%AD%E6%96%87%E9%96%8B%E5%A7%8B/"/>
 		<updated>2022-05-04T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/%E5%BE%9E%E7%9F%AD%E6%96%87%E9%96%8B%E5%A7%8B/</id>
+		<id>https://nesquate.tw/blog/posts/%E5%BE%9E%E7%9F%AD%E6%96%87%E9%96%8B%E5%A7%8B/</id>
 		<content type="html">
 		  &lt;p&gt;已經被社群網站養成只會發短文的習慣好長一段時間了，要我突然回來發長文還真是不容易，只好盡力而為。&lt;/p&gt;
 &lt;p&gt;目前的話能夠打多少字就算多少字，以養成發文習慣為主，所以文章品質應該會滿慘的XD。&lt;/p&gt;
@@ -28,9 +28,9 @@
 	
 	<entry>
 		<title>與 Vista 重新見面</title>
-		<link href="https://nesquate.tw/posts/%E8%88%87-vista-%E9%87%8D%E6%96%B0%E8%A6%8B%E9%9D%A2/"/>
+		<link href="https://nesquate.tw/blog/posts/%E8%88%87-vista-%E9%87%8D%E6%96%B0%E8%A6%8B%E9%9D%A2/"/>
 		<updated>2022-05-12T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/%E8%88%87-vista-%E9%87%8D%E6%96%B0%E8%A6%8B%E9%9D%A2/</id>
+		<id>https://nesquate.tw/blog/posts/%E8%88%87-vista-%E9%87%8D%E6%96%B0%E8%A6%8B%E9%9D%A2/</id>
 		<content type="html">
 		  &lt;p&gt;&lt;img src=&quot;https://images.plurk.com/5Vv4Fsot1u2dlNZX1DugW0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;目前的進度，如果可以我還是希望能夠把整套 Windows Live Wave 2 找過來...&lt;/p&gt;
@@ -45,9 +45,9 @@
 	
 	<entry>
 		<title>設定 Cloudflare 導致瀏覽器出現「ERR_TOO_MANY_REDIRECTS」的錯誤</title>
-		<link href="https://nesquate.tw/posts/%E8%A8%AD%E5%AE%9A-cloudflare-%E5%B0%8E%E8%87%B4%E7%80%8F%E8%A6%BD%E5%99%A8%E5%87%BA%E7%8F%BE%E3%80%8Cerr-too-many-redirects%E3%80%8D%E7%9A%84%E9%8C%AF%E8%AA%A4/"/>
+		<link href="https://nesquate.tw/blog/posts/%E8%A8%AD%E5%AE%9A-cloudflare-%E5%B0%8E%E8%87%B4%E7%80%8F%E8%A6%BD%E5%99%A8%E5%87%BA%E7%8F%BE%E3%80%8Cerr-too-many-redirects%E3%80%8D%E7%9A%84%E9%8C%AF%E8%AA%A4/"/>
 		<updated>2022-05-15T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/%E8%A8%AD%E5%AE%9A-cloudflare-%E5%B0%8E%E8%87%B4%E7%80%8F%E8%A6%BD%E5%99%A8%E5%87%BA%E7%8F%BE%E3%80%8Cerr-too-many-redirects%E3%80%8D%E7%9A%84%E9%8C%AF%E8%AA%A4/</id>
+		<id>https://nesquate.tw/blog/posts/%E8%A8%AD%E5%AE%9A-cloudflare-%E5%B0%8E%E8%87%B4%E7%80%8F%E8%A6%BD%E5%99%A8%E5%87%BA%E7%8F%BE%E3%80%8Cerr-too-many-redirects%E3%80%8D%E7%9A%84%E9%8C%AF%E8%AA%A4/</id>
 		<content type="html">
 		  &lt;p&gt;&lt;img src=&quot;https://nesquate.tw/img/2022/05/image-1024x560.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;預設 Cloudflare 的 SSL 加密策略為「彈性」，改成「完整」就解決了...&lt;/p&gt;
@@ -68,9 +68,9 @@
 	
 	<entry>
 		<title>在 Arch Linux 安裝最新版的 LINE 總整理</title>
-		<link href="https://nesquate.tw/posts/%E5%9C%A8-arch-linux-%E5%AE%89%E8%A3%9D%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84-line-%E7%B8%BD%E6%95%B4%E7%90%86/"/>
+		<link href="https://nesquate.tw/blog/posts/%E5%9C%A8-arch-linux-%E5%AE%89%E8%A3%9D%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84-line-%E7%B8%BD%E6%95%B4%E7%90%86/"/>
 		<updated>2022-07-13T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/%E5%9C%A8-arch-linux-%E5%AE%89%E8%A3%9D%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84-line-%E7%B8%BD%E6%95%B4%E7%90%86/</id>
+		<id>https://nesquate.tw/blog/posts/%E5%9C%A8-arch-linux-%E5%AE%89%E8%A3%9D%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84-line-%E7%B8%BD%E6%95%B4%E7%90%86/</id>
 		<content type="html">
 		  &lt;p&gt;關於 Arch Linux 怎麼灌 LINE 的步驟，我已經在 PTT 上 (&lt;a href=&quot;https://www.ptt.cc/bbs/Linux/M.1657093067.A.B49.html&quot;&gt;https://www.ptt.cc/bbs/Linux/M.1657093067.A.B49.html&lt;/a&gt;) 有初步分享，經由鄉民們的補充後，誕生出這篇文章。&lt;/p&gt;
 &lt;p&gt;整理出這篇就是希望以後自己在安裝 Arch Linux 的時候有點脈落，而不是缺啥補啥，搞到時間都浪費掉。&lt;/p&gt;
@@ -115,9 +115,9 @@
 	
 	<entry>
 		<title>Minecraft Fabric Server Mod 開發筆記 - (1) Mod 生命週期</title>
-		<link href="https://nesquate.tw/posts/minecraft-fabric-server-mod-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98-1-mod-%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/"/>
+		<link href="https://nesquate.tw/blog/posts/minecraft-fabric-server-mod-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98-1-mod-%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/"/>
 		<updated>2022-07-28T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/minecraft-fabric-server-mod-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98-1-mod-%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/</id>
+		<id>https://nesquate.tw/blog/posts/minecraft-fabric-server-mod-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98-1-mod-%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F/</id>
 		<content type="html">
 		  &lt;p&gt;Fabric API 新版 Lifecycle 的幾個比較重要的生命週期（依照 &lt;code&gt;println()&lt;/code&gt; （Kotlin) 印出結果來記錄）&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -169,9 +169,9 @@
 	
 	<entry>
 		<title>Minecraft 改存檔名稱，請留意一下 level.dat...</title>
-		<link href="https://nesquate.tw/posts/minecraft-%E6%94%B9%E5%AD%98%E6%AA%94%E5%90%8D%E7%A8%B1%EF%BC%8C%E8%AB%8B%E7%95%99%E6%84%8F%E4%B8%80%E4%B8%8B-level-dat/"/>
+		<link href="https://nesquate.tw/blog/posts/minecraft-%E6%94%B9%E5%AD%98%E6%AA%94%E5%90%8D%E7%A8%B1%EF%BC%8C%E8%AB%8B%E7%95%99%E6%84%8F%E4%B8%80%E4%B8%8B-level-dat/"/>
 		<updated>2022-07-31T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/minecraft-%E6%94%B9%E5%AD%98%E6%AA%94%E5%90%8D%E7%A8%B1%EF%BC%8C%E8%AB%8B%E7%95%99%E6%84%8F%E4%B8%80%E4%B8%8B-level-dat/</id>
+		<id>https://nesquate.tw/blog/posts/minecraft-%E6%94%B9%E5%AD%98%E6%AA%94%E5%90%8D%E7%A8%B1%EF%BC%8C%E8%AB%8B%E7%95%99%E6%84%8F%E4%B8%80%E4%B8%8B-level-dat/</id>
 		<content type="html">
 		  &lt;p&gt;會有這問題，主要是因為我經營的伺服器所使用的 &lt;a href=&quot;https://github.com/Xujiayao/MCDiscordChat&quot;&gt;MCDiscordChat&lt;/a&gt; 在我更改存檔資料夾的名稱之後經常噴錯：&lt;/p&gt;
 &lt;pre class=&quot;language-log&quot;&gt;&lt;code class=&quot;language-log&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token time number&quot;&gt;01:13:37&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Timer&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token level error important&quot;&gt;ERROR&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Uncaught exception in thread &lt;span class=&quot;token string&quot;&gt;&quot;Timer-2&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token exception javastacktrace language-javastacktrace&quot;&gt;java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;UncheckedIOException&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; RealmsMain/stats&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;apache&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;commons&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FileUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listFiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FileUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;java&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;2153&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[commons-io-2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;11&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jar&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; top&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;xujiayao&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mcdiscordchat&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;utils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Utils$2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Utils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;java&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;255&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[MCDiscordChat-1&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;19-2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;0-alpha&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;5&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jar&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;util&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;TimerThread&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;mainLoop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;util&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;TimerThread&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;Caused by&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;NoSuchFileException&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; RealmsMain/stats&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; sun&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;UnixException&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;translateToIOException&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; sun&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;UnixException&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;rethrowAsIOException&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; sun&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;UnixException&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;rethrowAsIOException&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; sun&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;UnixFileAttributeViews$Basic&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readAttributes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; sun&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;UnixFileSystemProvider&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readAttributes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; sun&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;LinuxFileSystemProvider&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readAttributes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Files&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readAttributes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FileTreeWalker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getAttributes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FileTreeWalker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;visit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FileTreeWalker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FileTreeIterator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&amp;lt;init&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Files&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Unknown Source&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[?&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;apache&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;commons&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;PathUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PathUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;java&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;1044&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[commons-io-2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;11&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jar&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;apache&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;commons&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FileUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;streamFiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FileUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;java&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;2971&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[commons-io-2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;11&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jar&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;at&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;apache&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;commons&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FileUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listFiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FileUtils&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;java&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;2151&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; ~[commons-io-2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;11&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jar&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;?]&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; 3 more&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -192,9 +192,9 @@
 	
 	<entry>
 		<title>不在分割表上的 ext4</title>
-		<link href="https://nesquate.tw/posts/%E4%B8%8D%E5%9C%A8%E5%88%86%E5%89%B2%E8%A1%A8%E4%B8%8A%E7%9A%84-ext4/"/>
+		<link href="https://nesquate.tw/blog/posts/%E4%B8%8D%E5%9C%A8%E5%88%86%E5%89%B2%E8%A1%A8%E4%B8%8A%E7%9A%84-ext4/"/>
 		<updated>2022-08-21T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/%E4%B8%8D%E5%9C%A8%E5%88%86%E5%89%B2%E8%A1%A8%E4%B8%8A%E7%9A%84-ext4/</id>
+		<id>https://nesquate.tw/blog/posts/%E4%B8%8D%E5%9C%A8%E5%88%86%E5%89%B2%E8%A1%A8%E4%B8%8A%E7%9A%84-ext4/</id>
 		<content type="html">
 		  &lt;p&gt;我已經忘記我當初是怎麼分割資料碟了，只知道是跟 EndeavourOS 安裝的時候一起格式化。&lt;/p&gt;
 &lt;p&gt;最近因為遊戲需求逐漸增加而把 Windows 灌回自己的 Laptop，把兩顆硬碟都分一半，結果在 Windows 操作磁碟工具時提示「磁碟初始化」的訊息。&lt;/p&gt;
@@ -218,9 +218,9 @@
 	
 	<entry>
 		<title>Debian 從 sid 到 Experimental 到 Linux 6.0 RC</title>
-		<link href="https://nesquate.tw/posts/2022-10-10-Debian%E5%BE%9Esid%E5%88%B0Experimental%E5%88%B0Linux-6-0-RC/"/>
+		<link href="https://nesquate.tw/blog/posts/2022-10-10-Debian%E5%BE%9Esid%E5%88%B0Experimental%E5%88%B0Linux-6-0-RC/"/>
 		<updated>2022-10-10T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/2022-10-10-Debian%E5%BE%9Esid%E5%88%B0Experimental%E5%88%B0Linux-6-0-RC/</id>
+		<id>https://nesquate.tw/blog/posts/2022-10-10-Debian%E5%BE%9Esid%E5%88%B0Experimental%E5%88%B0Linux-6-0-RC/</id>
 		<content type="html">
 		  &lt;p&gt;為了安裝 Linux 6.0 的紀錄。&lt;/p&gt;
 &lt;p&gt;這邊只介紹官方作法，也只推薦官方作法，因為單獨安裝首先會碰到套件依賴問題。由於 Debian 需要將更新頻道切換到 &lt;code&gt;experimental&lt;/code&gt; 才可以安裝最新版的 Linux Kernel 6.0，且要使用 &lt;code&gt;experimental&lt;/code&gt; 頻道之前系統必須要在 &lt;code&gt;sid&lt;/code&gt; 更新頻道的狀態，等於說要切換兩次更新頻道。&lt;/p&gt;
@@ -246,9 +246,9 @@
 	
 	<entry>
 		<title>從 WordPress 到 Hexo 的搬遷紀錄</title>
-		<link href="https://nesquate.tw/posts/2022-10-11-%E5%BE%9E-WordPress-%E5%88%B0-Hexo-%E7%9A%84%E6%90%AC%E9%81%B7%E7%B4%80%E9%8C%84/"/>
+		<link href="https://nesquate.tw/blog/posts/2022-10-11-%E5%BE%9E-WordPress-%E5%88%B0-Hexo-%E7%9A%84%E6%90%AC%E9%81%B7%E7%B4%80%E9%8C%84/"/>
 		<updated>2022-10-11T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/2022-10-11-%E5%BE%9E-WordPress-%E5%88%B0-Hexo-%E7%9A%84%E6%90%AC%E9%81%B7%E7%B4%80%E9%8C%84/</id>
+		<id>https://nesquate.tw/blog/posts/2022-10-11-%E5%BE%9E-WordPress-%E5%88%B0-Hexo-%E7%9A%84%E6%90%AC%E9%81%B7%E7%B4%80%E9%8C%84/</id>
 		<content type="html">
 		  &lt;p&gt;這邊記錄一下我是怎麼從 WordPress 搬到 Hexo，並搭配 GitHub Actions 以及 GitHub Pages 作為我目前的託管方案。&lt;/p&gt;
 &lt;p&gt;之所以要搬遷的原因是，最近也沒什麼用途會需要用到 VPS，所以就搬家了，也順便省錢。&lt;/p&gt;
@@ -273,9 +273,9 @@
 	
 	<entry>
 		<title>Git 遠端儲存庫強制蓋台</title>
-		<link href="https://nesquate.tw/posts/2022-10-12-Git-%E9%81%A0%E7%AB%AF%E5%84%B2%E5%AD%98%E5%BA%AB%E5%BC%B7%E5%88%B6%E8%93%8B%E5%8F%B0/"/>
+		<link href="https://nesquate.tw/blog/posts/2022-10-12-Git-%E9%81%A0%E7%AB%AF%E5%84%B2%E5%AD%98%E5%BA%AB%E5%BC%B7%E5%88%B6%E8%93%8B%E5%8F%B0/"/>
 		<updated>2022-10-12T08:00:00+08:00</updated>
-		<id>https://nesquate.tw/posts/2022-10-12-Git-%E9%81%A0%E7%AB%AF%E5%84%B2%E5%AD%98%E5%BA%AB%E5%BC%B7%E5%88%B6%E8%93%8B%E5%8F%B0/</id>
+		<id>https://nesquate.tw/blog/posts/2022-10-12-Git-%E9%81%A0%E7%AB%AF%E5%84%B2%E5%AD%98%E5%BA%AB%E5%BC%B7%E5%88%B6%E8%93%8B%E5%8F%B0/</id>
 		<content type="html">
 		  &lt;p&gt;稍微記錄一下不然之後又忘記。&lt;/p&gt;
 &lt;p&gt;原本 &lt;code&gt;im-nex.one&lt;/code&gt; 是用 Hugo 靜態網頁產生器去做首頁，後來部落格決定搬來這位置之後，就想說把原本的 Hugo 蓋掉。&lt;/p&gt;
