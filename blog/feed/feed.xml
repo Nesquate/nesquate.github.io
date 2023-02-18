@@ -49,14 +49,12 @@
 		<updated>2022-05-15T08:00:00+08:00</updated>
 		<id>https://nesquate.tw/blog/posts/%E8%A8%AD%E5%AE%9A-cloudflare-%E5%B0%8E%E8%87%B4%E7%80%8F%E8%A6%BD%E5%99%A8%E5%87%BA%E7%8F%BE%E3%80%8Cerr-too-many-redirects%E3%80%8D%E7%9A%84%E9%8C%AF%E8%AA%A4/</id>
 		<content type="html">
-		  &lt;p&gt;&lt;img src=&quot;https://nesquate.tw/img/2022/05/image-1024x560.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;預設 Cloudflare 的 SSL 加密策略為「彈性」，改成「完整」就解決了...&lt;/p&gt;
-&lt;p&gt;都自己用 VPS 架設 WordPress 部落格了，VPS 的流量也算是寸土寸金等級的 (如果流量爆掉的話)，遲早上一下 CDN 以避免流量爆炸。&lt;/p&gt;
+		  &lt;p&gt;都自己用 VPS 架設 WordPress 部落格了，VPS 的流量也算是寸土寸金等級的 (如果流量爆掉的話)，遲早上一下 CDN 以避免流量爆炸。&lt;/p&gt;
 &lt;p&gt;只是很奇怪，在 Cloudflare 開啟後台 Proxy 之後，Chrome 直接噴「ERR_TOO_MANY_REDIRECTS」後就不給我瀏覽，架站設定初期還不知道這是什麼原因，所以之前是直接關掉 CDN 的。&lt;/p&gt;
 &lt;p&gt;但總不能一直關掉然後搞到流量爆炸吧，所以稍微認真去爬文一下，才在&lt;a href=&quot;https://gist.github.com/lopezjurip/5314252970cc94970058320ac78f490a&quot;&gt;一篇 GitHub Gist 上&lt;/a&gt;看到原來需要調整 Cloudflare 的設定......。&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;p&gt;爬了文後發現，以 Cloudflare 的預設模式 (彈性) 來說，會在伺服器端連線到 HTTP (Port 80)，而訪客瀏覽則是由 Cloudflare 提供的 HTTPS (Port 443) 連線，但是因為 Caddy Server 這邊早就對 HTTP 做重定向 (Redirect) 了，所以 Cloudflare 連線到伺服器的那方就會連不到 HTTP，就變成無限重定向了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://nesquate.tw/2022/05/image-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://nesquate.tw/blog/img/2022/05/image-1024x560.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;如同&lt;a href=&quot;https://caddy.community/t/cloudflare-infinite-redirect-err-too-many-redirects/14192/3&quot;&gt;這篇文&lt;/a&gt;說到的結果，但當時我對於到底該怎麼設定還是沒概念XD&lt;/p&gt;
 &lt;p&gt;所以如果確定伺服器有提供完整的 HTTPS，那就要改成「完整」或是「完整 (嚴格)」。&lt;/p&gt;
 &lt;p&gt;在撰文的同時，我想起來其實以前在自架 WordPress + Cloudflare (那時候還是 Shared Hosting) 我明明有注意到這點，但怎麼在這時候忘記了呢？而且明明之前用 yinyin.dev 也沒出現過這種問......。&lt;/p&gt;
@@ -88,7 +86,7 @@
 &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;WINEPREFIX&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=~&lt;/span&gt;/.wine-line winecfg&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;並順便進入設定。過程中若有提示要安裝 Wine Mono 的話，請不要安裝，因為用不到 .NET 框架執行環境。&lt;/p&gt;
 &lt;p&gt;進入設定之後，目前只要改 Windows 執行版本為 Windows 10 就好。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://nesquate.tw/img/2022/07/%E6%9C%AA%E5%84%B2%E5%AD%98%E5%9C%96%E7%89%87-2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://nesquate.tw/blog/img/2022/07/%E6%9C%AA%E5%84%B2%E5%AD%98%E5%9C%96%E7%89%87-2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;%E5%AE%89%E8%A3%9D-visual-c%2B%2B-2012-runtime&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%AE%89%E8%A3%9D-visual-c%2B%2B-2012-runtime&quot;&gt;#&lt;/a&gt; 安裝 Visual C++ 2012 Runtime&lt;/h3&gt;
 &lt;p&gt;這時可以請 Winetricks 代勞下載：&lt;/p&gt;
 &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;WINEPREFIX&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=~&lt;/span&gt;/.wine-line winetricks vctun2012&lt;/code&gt;&lt;/pre&gt;
@@ -183,7 +181,7 @@
 &lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token class-name&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;FileUtils&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listFiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;SERVER&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getSaveProperties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getLevelName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/stats/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;SERVER&lt;/code&gt; 是 &lt;code&gt;MinecraftServer&lt;/code&gt; 類別的實體，所以可以斷言 &lt;code&gt;getSaveProperties()&lt;/code&gt; 以及其底下的 &lt;code&gt;getLevelName()&lt;/code&gt; 都是原生 Minecraft 的 API，應該不是 Mod 作者的鍋。&lt;/p&gt;
 &lt;p&gt;後來直接往 NBT 資訊有存檔名稱的方向猜，打開 level.dat，果然還真的猜對了...&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://nesquate.tw/2022/07/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2022-07-31-00-34-23.png&quot;&gt;&lt;img src=&quot;https://nesquate.tw/img/2022/07/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2022-07-31-00-34-23.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&quot;https://nesquate.tw/blog/img/2022/07/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2022-07-31-00-34-23.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;停機改掉之後再開啟，就沒再跳錯誤了。&lt;/p&gt;
 
 			
@@ -207,9 +205,9 @@
 &lt;/blockquote&gt;
 &lt;p&gt;再點進去解答者提供的連結，看了一下，原來 Oracle VM 也這樣幹...。&lt;/p&gt;
 &lt;p&gt;後來去 &lt;code&gt;lsblk&lt;/code&gt; 看一下，&lt;code&gt;sda&lt;/code&gt; 後面沒號碼是直接整個掛起來的：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://nesquate.tw/2022/08/Screenshot_20220821_200036.png&quot;&gt;&lt;img src=&quot;https://nesquate.tw/img/2022/08/Screenshot_20220821_200036.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&quot;https://nesquate.tw/blog/img/2022/08/Screenshot_20220821_200036.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;然後再去 &lt;code&gt;/etc/fstab&lt;/code&gt; 看一下，因為我當初直接用 GNOME 提供的磁碟工具來掛載，不知道裡面寫了啥，所以要檢查一下：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://nesquate.tw/2022/08/Screenshot_20220821_200154.png&quot;&gt;&lt;img src=&quot;https://nesquate.tw/img/2022/08/Screenshot_20220821_200154.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&quot;https://nesquate.tw/blog/img/2022/08/Screenshot_20220821_200154.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;好吧，當初用 UUID 的方式掛起來。不過我對我當初怎麼分割成這樣已經完全沒有任何印象了 lol&lt;/p&gt;
 
 			
