@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hexo 時期的文章 on 美代子隨筆</title>
+    <link>https://nesquate.tw/blog/categories/hexo-%E6%99%82%E6%9C%9F%E7%9A%84%E6%96%87%E7%AB%A0/</link>
+    <description>Recent content in Hexo 時期的文章 on 美代子隨筆</description>
+    <image>
+      <title>美代子隨筆</title>
+      <url>https://nesquate.tw/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://nesquate.tw/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nesquate.tw/blog/categories/hexo-%E6%99%82%E6%9C%9F%E7%9A%84%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 遠端儲存庫強制蓋台</title>
+      <link>https://nesquate.tw/blog/posts/2022-10-12-git-%E9%81%A0%E7%AB%AF%E5%84%B2%E5%AD%98%E5%BA%AB%E5%BC%B7%E5%88%B6%E8%93%8B%E5%8F%B0/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nesquate.tw/blog/posts/2022-10-12-git-%E9%81%A0%E7%AB%AF%E5%84%B2%E5%AD%98%E5%BA%AB%E5%BC%B7%E5%88%B6%E8%93%8B%E5%8F%B0/</guid>
+      <description>稍微記錄一下不然之後又忘記。
+原本 im-nex.one 是用 Hugo 靜態網頁產生器去做首頁，後來部落格決定搬來這位置之後，就想說把原本的 Hugo 蓋掉。
+但是我沒有先把儲存庫先 Clone 下來，所以有點麻煩。
+一開始我天真浪漫想說，阿就 git clone --no-checkout 就好了，這也是一開始找到的解法。
+但是很快就遇到非空資料夾的問題 (Git 不允許在有資料的資料夾內 Clone Git 儲存庫)，所以後來參考了另外一種解法。
+自己的版本如下:
+# 先初始化本地的 Git 儲存庫 git init # 記得要蓋台分支名稱要跟遠端儲存庫上的一致，否則在 push 階段要手動指定 git branch -m main # 新增遠端儲存庫 git remote add origin &amp;lt;remote_url&amp;gt; # 然後把遠端儲存庫先抓下來，但不合併或 checkout git fetch ## 然後就是做各種 commit 等操作，最後上傳的時候要加上 `-f` 參數 git push --set-upstream orign -f 這樣就強制蓋台成功了，不過強制蓋台意味著上面原本的資料也會不見，所以請先做好備份。</description>
+    </item>
+    
+    <item>
+      <title>從 WordPress 到 Hexo 的搬遷紀錄</title>
+      <link>https://nesquate.tw/blog/posts/2022-10-11-%E5%BE%9E-wordpress-%E5%88%B0-hexo-%E7%9A%84%E6%90%AC%E9%81%B7%E7%B4%80%E9%8C%84/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nesquate.tw/blog/posts/2022-10-11-%E5%BE%9E-wordpress-%E5%88%B0-hexo-%E7%9A%84%E6%90%AC%E9%81%B7%E7%B4%80%E9%8C%84/</guid>
+      <description>這邊記錄一下我是怎麼從 WordPress 搬到 Hexo，並搭配 GitHub Actions 以及 GitHub Pages 作為我目前的託管方案。
+之所以要搬遷的原因是，最近也沒什麼用途會需要用到 VPS，所以就搬家了，也順便省錢。
+hexo-migrator-wordpress 這次一樣使用 hexo-migrator-wordpress，但我這次才知道有 --import-image 這個參數可以用&amp;hellip;&amp;hellip;。
+這下工作量就減少不少，只要修改圖片的超連結就好。用完之後基本上文章、頁面、分類與標籤都順利搬遷過來了。
+不過自 WordPress 5.x/6.x (不太確定) 引入的新版主題編輯器好像會讓 Hexo 匯入之後產出一些垃圾空白頁面，這部分除了手動移除之外好像別無他法。
+NexT 主題 這是我第二次使用 NexT 主題，這部分就依照自身的喜好修改。
+詳細設定可以在我的部落格的 GitHub Repo上看到，這部分應該沒有什麼好說明的。
+目前我的部落格還沒決定好要用哪種留言系統，所以不開放留言。
+設定 GitHub Actions 這部分參考Hexo 官方教學所填寫。
+其實可以等於照抄了XD，但我可能要再研究一下看peaceiris/actions-gh-pages@v3能不能不要用我的名字做 Commit&amp;hellip;&amp;hellip;。
+結尾 好久沒用 Hexo 了，這次回來用 Hexo 相關操作有點遲鈍，不過很快就抓到感覺了。
+把部落格方案轉移成 Hexo 之後，VPS 就可以直接銷毀了，至於 Vultr 剩下的餘額，可能看看之後能不能建立一個 VPN 起來用吧 (但好像很多服務都早就封鎖 VPS 服務的 IP 了)。</description>
+    </item>
+    
+    <item>
+      <title>Debian 從 sid 到 Experimental 到 Linux 6.0 RC</title>
+      <link>https://nesquate.tw/blog/posts/2022-10-10-debian%E5%BE%9Esid%E5%88%B0experimental%E5%88%B0linux-6-0-rc/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nesquate.tw/blog/posts/2022-10-10-debian%E5%BE%9Esid%E5%88%B0experimental%E5%88%B0linux-6-0-rc/</guid>
+      <description>為了安裝 Linux 6.0 的紀錄。
+這邊只介紹官方作法，也只推薦官方作法，因為單獨安裝首先會碰到套件依賴問題。由於 Debian 需要將更新頻道切換到 experimental 才可以安裝最新版的 Linux Kernel 6.0，且要使用 experimental 頻道之前系統必須要在 sid 更新頻道的狀態，等於說要切換兩次更新頻道。
+首先先修改 /etc/apt/source.list，把 bullseye 換成 sid，只要改第一個 deb 和 deb-src 就好。
+deb http://debian.cs.nctu.edu.tw/debian/ sid main deb-src http://debian.cs.nctu.edu.tw/debian/ sid main 然後直接做系統全更新。
+# apt update # apt full-upgrade 讓 apt 把更新一次跑完後重開機，就會是 sid 更新頻道的狀態了。
+接著再次修改 /etc/apt/source.list，把 sid 換成 experimental，同樣也是只要改第一個 deb 和 deb-src。
+deb http://debian.cs.nctu.edu.tw/debian/ experimental main deb-src http://debian.cs.nctu.edu.tw/debian/ experimental main 然後安裝最新版 Linux Kernel，截至本文時間 Debian 最新版本為 Linux 6.0-rc7。
+# apt update # apt -t experimental install linux-image-6.</description>
+    </item>
+    
+  </channel>
+</rss>
