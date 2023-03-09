@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 27 Feb 2023 09:39:17 +0800</lastBuildDate><atom:link href="https://nesquate.tw/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2023 16:51:11 +0800</lastBuildDate><atom:link href="https://nesquate.tw/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[置頂] 2023 部落格二三事</title>
       <link>https://nesquate.tw/blog/posts/2023-%E9%83%A8%E8%90%BD%E6%A0%BC%E4%BA%8C%E4%B8%89%E4%BA%8B/</link>
@@ -23,6 +23,20 @@
 2023 結束前：將過去的部落格文章彙整 畢竟這也不是我第一次創立部落格，過去的部落格也有其他文章可以拿來重新整理，如果可以的話就去做吧。
 自己的規定：目前別再換另外一套部落格了 現在的 Hugo + PaperMod 以前也不是沒用過，但是後來覺得很膩就整套換掉，結果得到的結果是我永遠對另外一個東西不滿意。
 現在我又回頭做起 Hugo + PaperMod 的老本業，這次就下定決心定下來吧。</description>
+    </item>
+    
+    <item>
+      <title>Kagi 3/15 號後要執行的付費方案變更</title>
+      <link>https://nesquate.tw/blog/posts/kagi-plan-change-0315/</link>
+      <pubDate>Thu, 09 Mar 2023 16:51:11 +0800</pubDate>
+      
+      <guid>https://nesquate.tw/blog/posts/kagi-plan-change-0315/</guid>
+      <description>才剛訂 Kagi 10 鎂無限搜尋方案不到一個月，官方說要改付費方案了&amp;hellip;時間真不巧 XD（3/15 起更動）
+免費搜尋額度:
+Free 50-&amp;gt;100 5 鎂是新增的方案，免費 200 次 10 鎂 無限 -&amp;gt; 免費 700 次 25 鎂也是新的方案，這才是真的無限，其他服務會有優惠（？ 超過免費額度每搜尋一次 1.5 分（沒搞錯應該是 0.0015 鎂/次），好像繼續維持 10 鎂也夠用，畢竟這樣算的話要每搜尋超過 1000 次才會多 1.5 鎂，希望我的度量衡認知不要雷到我
+舊版的方案會繼續到過期為止
+有趣的是 Kagi 在 Blog 文章 說到 &amp;ldquo;99% of users search less than 200 times a month&amp;rdquo;（還附上來源），我還以為隨隨便便都超過 200 次（像我直到現在就已經 361 次搜尋了）
+在 Blog 文章還有提到家庭方案、之後要推動的生成式 AI 搜尋，這不在我感興趣的範圍，就沒多研究了（雖然同一篇文章都有講到）</description>
     </item>
     
     <item>

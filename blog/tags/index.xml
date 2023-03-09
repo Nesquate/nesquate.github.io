@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 27 Feb 2023 09:39:17 +0800</lastBuildDate><atom:link href="https://nesquate.tw/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2023 16:51:11 +0800</lastBuildDate><atom:link href="https://nesquate.tw/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kagi</title>
+      <link>https://nesquate.tw/blog/tags/kagi/</link>
+      <pubDate>Thu, 09 Mar 2023 16:51:11 +0800</pubDate>
+      
+      <guid>https://nesquate.tw/blog/tags/kagi/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hugo</title>
       <link>https://nesquate.tw/blog/tags/hugo/</link>
