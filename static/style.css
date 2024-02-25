@@ -18,6 +18,9 @@ body {
     height: 100vh;
     /* align-content: center; */
     /* background-color: white; */
+    
+    /* Fix Safari not blur on background https://www.reddit.com/r/css/comments/12jhh10/solution_backdrop_filter_blur_doesnt_work_in/ */
+    -webkit-backdrop-filter: blur(5px) brightness(60%);
     backdrop-filter: blur(5px) brightness(60%);
     color: white;
 }
