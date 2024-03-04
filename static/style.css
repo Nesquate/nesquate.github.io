@@ -42,6 +42,7 @@ h1 {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .block-link {
@@ -50,7 +51,7 @@ h1 {
     justify-content: center;
     align-items: center;
     border-style: none;
-    font-size: 14px;
+    font-size: 20px;
     padding: 20px;
     margin: 5px 5px;
     width: 200px;
@@ -68,9 +69,8 @@ h1 {
     background-color: rgba(255, 166, 0, 0.322);
 }
 
-.block-link > a {
-    padding: 5px;
-    font-size: 20px;
+.block-link > i {
+    padding: 10px;
 }
 
 a {
